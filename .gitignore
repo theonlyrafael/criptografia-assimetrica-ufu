@@ -1,0 +1,16 @@
+# ambientes virtuais Python
+.venv/
+venv/
+env/
+
+# arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# arquivos de sistema ocultos
+.DS_Store
+Thumbs.db
+
+# ignorar chave privada 
+chave_privada.pem
