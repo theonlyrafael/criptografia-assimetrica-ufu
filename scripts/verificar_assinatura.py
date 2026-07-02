@@ -8,11 +8,10 @@ CANDIDATOS = sorted(RAIZ_PROJETO.glob("assinado*.txt"))
  
  
 def verificar(chave_publica: Path, assinatura: Path, candidato: Path) -> bool:
-    """
-    Executa 'openssl pkeyutl -verify' para checar se 'assinatura' corresponde
-    a assinatura de 'candidato' feita com a chave privada correspondente a
-    'chave_publica'. Retorna True se a verificacao for bem-sucedida.
-    """
+    
+    # executa 'openssl pkeyutl -verify' para checar se 'assinatura' corresponde a assinatura de 'candidato' feita com a chave privada correspondente a'chave_publica' 
+    # retorna True se a verificacao for bem-sucedida
+    
     comando = [
         "openssl", "pkeyutl",
         "-verify",
