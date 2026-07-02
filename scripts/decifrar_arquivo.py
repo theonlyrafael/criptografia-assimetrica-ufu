@@ -9,11 +9,10 @@ ARQUIVO_SAIDA = RAIZ_PROJETO / "arquivo.txt"
  
  
 def decifrar(chave_privada: Path, arquivo_cifrado: Path, arquivo_saida: Path) -> str:
-    """
-    Executa 'openssl pkeyutl -decrypt' para decifrar arquivo_cifrado
-    usando chave_privada, gravando o resultado em arquivo_saida.
-    Retorna o conteudo decifrado como string.
-    """
+
+    # executa 'openssl pkeyutl -decrypt' para decifrar arquivo_cifrado usando chave_privada, gravando o resultado em arquivo_saida
+    # retorna o conteudo decifrado como string
+    
     comando = [
         "openssl", "pkeyutl",
         "-decrypt",
