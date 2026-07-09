@@ -2,7 +2,7 @@
 
 > Projeto desenvolvido e finalizado em Julho de 2026 para a matéria de Segurança da Informação.
 
-Este repositório contém a resolução do trabalho prático da disciplina de
+Este repositório contém a resolução do **primeiro** trabalho prático da disciplina de
 Segurança da Informação, do oitavo período do curso de Sistemas de Informação na Universidade Federal
 de Uberlândia (UFU). O exercício foi proposto pelo professor através do
 script `exercicio.py`, presente na raiz deste repositório, e trabalha com
